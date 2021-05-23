@@ -4,4 +4,4 @@ desktop.ini
 obj
 bin
 Debug
-.log
+*.log
