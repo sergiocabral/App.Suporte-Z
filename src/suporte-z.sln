@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "suporte-z", "suporte-z\suporte-z.csproj", "{01BE6EFE-6729-44D7-BDE8-4C3A1E871B6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "suporte-z.cmd.crypto", "suporte-z.cmd.crypto\suporte-z.cmd.crypto.csproj", "{1A844F72-2C23-41AD-955B-1925849AEFE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "suporte-z-cmd.cryptof", "suporte-z-cmd.cryptof\suporte-z-cmd.cryptof.csproj", "{4DE422CC-75A1-4AEE-A84F-0CF47D1C598C}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://sergiocabral.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = suporte-z\\suporte-z.csproj
+		SccProjectName1 = suporte-z
+		SccLocalPath1 = suporte-z
+		SccProjectUniqueName2 = suporte-z.cmd.crypto\\suporte-z.cmd.crypto.csproj
+		SccProjectName2 = suporte-z.cmd.crypto
+		SccLocalPath2 = suporte-z.cmd.crypto
+		SccProjectUniqueName3 = suporte-z-cmd.cryptof\\suporte-z-cmd.cryptof.csproj
+		SccProjectName3 = suporte-z-cmd.cryptof
+		SccLocalPath3 = suporte-z-cmd.cryptof
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{01BE6EFE-6729-44D7-BDE8-4C3A1E871B6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01BE6EFE-6729-44D7-BDE8-4C3A1E871B6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01BE6EFE-6729-44D7-BDE8-4C3A1E871B6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01BE6EFE-6729-44D7-BDE8-4C3A1E871B6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A844F72-2C23-41AD-955B-1925849AEFE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A844F72-2C23-41AD-955B-1925849AEFE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A844F72-2C23-41AD-955B-1925849AEFE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A844F72-2C23-41AD-955B-1925849AEFE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DE422CC-75A1-4AEE-A84F-0CF47D1C598C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DE422CC-75A1-4AEE-A84F-0CF47D1C598C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DE422CC-75A1-4AEE-A84F-0CF47D1C598C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DE422CC-75A1-4AEE-A84F-0CF47D1C598C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

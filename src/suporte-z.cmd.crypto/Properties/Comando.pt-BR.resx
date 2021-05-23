@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="formPrincipal_buttonAcao_Hint" xml:space="preserve">
+    <value>Faz acontecer...\nseja criptografia ou descriptografia.</value>
+  </data>
+  <data name="formPrincipal_checkBoxAcaoAutomatico_Hint" xml:space="preserve">
+    <value>Quando ativado realiza o processo de\ncriptografia/descriptografia automaticamente.\n\nQuando desativado torna necessário acionar\no botão para iniciar o processo\nde criptografia/descriptografia.</value>
+  </data>
+  <data name="formPrincipal_labelSenha" xml:space="preserve">
+    <value>Se&amp;nha</value>
+  </data>
+  <data name="formPrincipal_labelValorEntrada" xml:space="preserve">
+    <value>Valor de &amp;entrada</value>
+  </data>
+  <data name="formPrincipal_labelValorSaida" xml:space="preserve">
+    <value>Valor de &amp;saída</value>
+  </data>
+  <data name="formPrincipal_menuItem_Biblioteca_Algoritmo" xml:space="preserve">
+    <value>Algoritmo de criptografia</value>
+  </data>
+  <data name="formPrincipal_menuItem_Biblioteca_Clipboard" xml:space="preserve">
+    <value>Enviar resultado para área de &amp;transferência</value>
+  </data>
+  <data name="formPrincipal_menuItem_Biblioteca_ClipboardControlVPassword" xml:space="preserve">
+    <value>Vincula o valor da senha com a área de transferência</value>
+  </data>
+  <data name="formPrincipal_menuItem_Biblioteca_ClipboardControlVValue" xml:space="preserve">
+    <value>Vincula o valor do texto de entrada com a área de transferência</value>
+  </data>
+  <data name="formPrincipal_menuItem_Biblioteca_Silent" xml:space="preserve">
+    <value>Não exibir o &amp;resultado</value>
+  </data>
+  <data name="formPrincipal_panelIconePassword_Hint" xml:space="preserve">
+    <value>Digite aqui a senha usada para\ncriptografar/descriptografar o texto.</value>
+  </data>
+  <data name="formPrincipal_panelIconeValorEntrada_Hint" xml:space="preserve">
+    <value>Digite aqui o texto que\nserá criptografado/descriptografado.</value>
+  </data>
+  <data name="formPrincipal_panelIconeValorSaida_Hint" xml:space="preserve">
+    <value>Aqui será apresentado o resultado do\nprocesso de criptografia/descriptografia.\n\nEste campo apenas fica vazio quando a\ntentativa de descriptografia falha\npor causa do texto que não está criptografado.</value>
+  </data>
+  <data name="formPrincipal_radioButtonCrypt" xml:space="preserve">
+    <value>&amp;Criptografar</value>
+  </data>
+  <data name="formPrincipal_radioButtonCrypt_Hint" xml:space="preserve">
+    <value>Ative este para criptografar o texto inserido.\n\nMesmo quando nenhum texto é inserido,\no valor vazio também será criptografado.</value>
+  </data>
+  <data name="formPrincipal_radioButtonDecrypt_Hint" xml:space="preserve">
+    <value>Ative este para descriptografar o texto inserido.\n\nA operação só será realizada se o texto\ninserido estiver criptografado.</value>
+  </data>
+  <data name="formPrincipal_radioButtonDescrypt" xml:space="preserve">
+    <value>&amp;Descriptografar</value>
+  </data>
+  <data name="msgAlgoritmoInvalido" xml:space="preserve">
+    <value>Algoritmo de criptografia inválido: {0}</value>
+  </data>
+  <data name="msgConflitoCryptDecrypt" xml:space="preserve">
+    <value>Não foi possível determinar a ação: crypt ou decrypt? (escolha uma só)</value>
+  </data>
+  <data name="msgConflitoSenhaClipboard" xml:space="preserve">
+    <value>Não foi possível determinar a origem da senha: valor informado ou área de transferência? (escolha um só)</value>
+  </data>
+  <data name="msgConflitoValorClipboard" xml:space="preserve">
+    <value>Não foi possível determinar a origem do texto: valor informado ou área de transferência? (escolha um só)</value>
+  </data>
+  <data name="msgDescricao" xml:space="preserve">
+    <value>O comando crypto fornece funções no contexto\nda criptografia para sequências de texto.</value>
+  </data>
+  <data name="msgTextoNaoEstavaCriptografado" xml:space="preserve">
+    <value>O texto não era um valor criptografado. Operação cancelada.</value>
+  </data>
+  <data name="optionAlgoritmoDeCriptografia" xml:space="preserve">
+    <value>Algoritmo de criptografia simétrica.\nOpções válidas para VALUE:\n  DES        - usa chave de  64 bits\n  RC2        - usa chave de 128 bits\n  TripleDES  - usa chave de 192 bits\n  Rijndael   - usa chave de 256 bits (padrão)</value>
+  </data>
+  <data name="optionCriptografar" xml:space="preserve">
+    <value>Ação de criptografar (padrão)</value>
+  </data>
+  <data name="optionDescriptografar" xml:space="preserve">
+    <value>Ação de descriptografar</value>
+  </data>
+  <data name="optionEnviarResultadoParaClipboard" xml:space="preserve">
+    <value>Envia o resultado do processo de criptografia para a área de transferência</value>
+  </data>
+  <data name="optionInterfaceGrafica" xml:space="preserve">
+    <value>Usa interface gráfica (GUI)</value>
+  </data>
+  <data name="optionModoSilencioso" xml:space="preserve">
+    <value>Modo silencioso não exibe o resultado do processo de criptografia</value>
+  </data>
+  <data name="optionSenha" xml:space="preserve">
+    <value>Senha aplicada no processo de criptografia</value>
+  </data>
+  <data name="optionSenhaComoClipboard" xml:space="preserve">
+    <value>Obtem da área de transferência a senha aplicada no processo de criptografia</value>
+  </data>
+  <data name="optionTextoComoClipboard" xml:space="preserve">
+    <value>Obtem da área de transferência o texto a ser manipulado</value>
+  </data>
+  <data name="optionTextoParaManipular" xml:space="preserve">
+    <value>Texto que será manipulado</value>
+  </data>
+</root>

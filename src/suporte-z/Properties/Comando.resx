@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ajudaCabecalho01" xml:space="preserve">
+    <value>{NomeDoAplicativo} (version {VersaoDoAplicativo})</value>
+  </data>
+  <data name="ajudaCabecalho02" xml:space="preserve">
+    <value>General purpose tools</value>
+  </data>
+  <data name="ajudaCabecalho03" xml:space="preserve">
+    <value>sergio@cabral.br.com</value>
+  </data>
+  <data name="ajudaLinha04" xml:space="preserve">
+    <value>Syntax:</value>
+  </data>
+  <data name="ajudaLinha05" xml:space="preserve">
+    <value>  {NomeDoExecutavel} [language] &lt;command&gt;</value>
+  </data>
+  <data name="ajudaLinha06" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ajudaLinha07" xml:space="preserve">
+    <value>Example:</value>
+  </data>
+  <data name="ajudaLinha08" xml:space="preserve">
+    <value>  {NomeDoExecutavel} crypto /?</value>
+  </data>
+  <data name="ajudaLinha09" xml:space="preserve">
+    <value>  {NomeDoExecutavel} pt-BR crypto /?</value>
+  </data>
+  <data name="ajudaLinha10" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ajudaLinha11" xml:space="preserve">
+    <value>Languages:</value>
+  </data>
+  <data name="ajudaLinha12" xml:space="preserve">
+    <value>  pt-BR</value>
+  </data>
+  <data name="ajudaLinha13" xml:space="preserve">
+    <value>  en-US</value>
+  </data>
+  <data name="ajudaLinha14" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ajudaLinha15" xml:space="preserve">
+    <value>* The executable can be renamed to embed language;</value>
+  </data>
+  <data name="ajudaLinha16" xml:space="preserve">
+    <value>for example: "{ParteInicialDoNomeDoExecutavel}.pt-BR.exe"</value>
+  </data>
+  <data name="ajudaLinha17" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ajudaLinha18" xml:space="preserve">
+    <value>Available commands:</value>
+  </data>
+  <data name="ajudaLinha19" xml:space="preserve">
+    <value>{ComandosDisponiveis}</value>
+  </data>
+  <data name="msgAjudaParaComando" xml:space="preserve">
+    <value>Help for the command: {0} (version {1})</value>
+  </data>
+  <data name="msgArgumentosInvalidos" xml:space="preserve">
+    <value>One or more arguments are invalid: {0}</value>
+  </data>
+  <data name="msgBibliotecaObsoleta" xml:space="preserve">
+    <value>The compilation of the library ({0}) is older than the executable ({1}).</value>
+  </data>
+  <data name="msgComandoComBibliotecaInvalida" xml:space="preserve">
+    <value>Error with command "{0}" library "{1}".</value>
+  </data>
+  <data name="msgConsulteAAjuda" xml:space="preserve">
+    <value>To view the help, type: {0} {1} /?</value>
+  </data>
+  <data name="msgErroDesconhecido" xml:space="preserve">
+    <value>ERROR UNKNOWN:</value>
+  </data>
+  <data name="msgErroDeSintaxe" xml:space="preserve">
+    <value>SYNTAX ERROR:</value>
+  </data>
+  <data name="msgErroDoComando" xml:space="preserve">
+    <value>ERROR:</value>
+  </data>
+  <data name="msgNenhumComandoDisponivel" xml:space="preserve">
+    <value>No command was found.</value>
+  </data>
+  <data name="optionAjuda" xml:space="preserve">
+    <value>Help on using this command.</value>
+  </data>
+  <data name="ajudaCabecalho04" xml:space="preserve">
+    <value />
+  </data>
+  <data name="formBase_menuItem_Aplicativo_Sobre" xml:space="preserve">
+    <value>Ab&amp;out</value>
+  </data>
+  <data name="formBase_textBoxTexto_ArquivosCarregados" xml:space="preserve">
+    <value>Loaded files:\n* {0}\n* {1}</value>
+  </data>
+  <data name="formBase_textBoxTexto_Comando" xml:space="preserve">
+    <value>Command: {0} (version {1})</value>
+  </data>
+  <data name="formBase_textBoxTexto_LinhaDeComando" xml:space="preserve">
+    <value>Command line:\n  {0}</value>
+  </data>
+  <data name="formSobre_ButtonFechar" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="formBase_menuItem_Aplicativo_Sair" xml:space="preserve">
+    <value>Ex&amp;it</value>
+  </data>
+  <data name="formBase_menuItem_Aplicativo_Tray" xml:space="preserve">
+    <value>&amp;Minimize to system tray</value>
+  </data>
+  <data name="msgArgumentoDeveSerSozinho" xml:space="preserve">
+    <value>The argument "{0}" must be used alone.</value>
+  </data>
+  <data name="msgDuplicidadeDeArgumento" xml:space="preserve">
+    <value>Not supported duplicity for the argument: {0}</value>
+  </data>
+</root>
