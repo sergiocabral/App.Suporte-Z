@@ -3,3 +3,5 @@ desktop.ini
 *.vssscc
 obj
 bin
+Debug
+.log
